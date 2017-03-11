@@ -1,0 +1,70 @@
+@media screen and (max-width: 415px) {
+	.wrapper {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 50px;
+		margin-right: 8px;
+	}
+
+	.header p {
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-right: 8px;	
+	}
+
+	.hello h3 {
+		font-size: 22px;
+	}
+
+	.hello p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+	.education img {
+		width: 24px;
+	}
+
+	.education h3 {
+		font-size: 21px;
+		margin-left: 27.5px;
+	}
+
+	.university span {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.university p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.professional-skills h2 {
+		font-size: 22px;
+	}
+
+	.professional-skills h2:after {
+		display: none;
+	}
+
+	.professional-skills h5, .personal-skills h5 {
+		margin-top: 6px;
+		font-size: 14px;
+	}
+
+	.professional-skills li > span, .personal-skills li > span {
+ 	    font-size: 12px;
+	}
+
+	.indikator-zagryzki {
+        height: 12px;
+	}
+
+	.contacts p {
+        font-size: 11px;
+	}
+}
+

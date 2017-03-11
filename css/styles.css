@@ -45,13 +45,41 @@
 }
 
 body {
+	/*z-index: 100 !important; */
 	font-family: 'exolight';
+	/*background: url(../img/background.jpg) repeat-y;
+	background-size: 100%;	*/
+	/*position: relative;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#faf8e0+58,434244+58 */
+background: rgb(250,248,224); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(250,248,224,1) 58%, rgba(67,66,68,1) 58%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(250,248,224,1) 58%,rgba(67,66,68,1) 58%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(250,248,224,1) 58%,rgba(67,66,68,1) 58%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf8e0', endColorstr='#434244',GradientType=1 ); /* IE6-9 */
+
+}
+
+/*body:after {
+	background: #434244;
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	content: "";
+	display: block;	
+}*/
+
+.wrapper {
+	/*border: 2px solid red;*/
+	width: 80%;
+	margin: 0 auto;
 }	
 
 .header {
 	background: #7a7978;
 	text-align: right;
-	padding: 2% 3% 2% 0;
+	padding: 2% 0;
 	border-bottom: 12px solid #362632;
 }
 
@@ -59,16 +87,18 @@ h1 {
 	font-family: 'cheap_pineregular';
 	font-size: 100px;
 	color: #faf8e0;
+	padding-top: 5%;
 }
 
 .header p {
 	font-family: 'market_decoregular';
-	font-size: 18px;
+	font-size: 30px;
 	letter-spacing: 4px;
 	color: #faf8e0;
 }
 
 .main {
+	/*border: 2px solid green;*/
 	display: table;
 	table-layout:fixed;
 	width: 100%;
@@ -88,7 +118,7 @@ h1 {
 	padding: 1.9% 1.5%;
 	vertical-align: top;
 	width: 34.6%;
-	background: #434244;
+	background: rgb(67,66,68);
 }
 
 .hello	{
@@ -97,9 +127,9 @@ h1 {
 }
 
 .hello h3 {
-	margin-bottom: 4%;
+	margin-bottom: 3%;
 	font-family: 'market_decoregular';
-	font-size: 35px;
+	font-size: 40px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -127,16 +157,15 @@ h1 {
 	/*border: 1px solid black;*/
 	display: block;
 	float: left;
-	width: 7.5%;
+	width: 43px;
 }
 
 .education h3 {
 	/*border: 1px solid black;*/
 	margin-left: 10%;
-    padding-top: 1.13%;
+    padding-top: 0.4%;
 	font-family: 'market_decoregular';
-	/*font-size: 35px;*/
-	font-size: 3vw;
+	font-size: 35px;
 	letter-spacing: 0.0625em;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -151,6 +180,7 @@ h1 {
 	/*border: 1px solid black;*/
 	text-transform: uppercase;
 	font-size: 18px;
+	line-height: 22px;
 	color: #383836;
 }
 
@@ -161,13 +191,15 @@ h1 {
 .university p {
 	/*border: 1px solid black;*/
 	margin-top: 2%;
+	line-height: 22px;
 }
 
 .foto {
 	display: block;
-	width: 75%;
-	margin: 10% auto;
+	float: left;
+	width: 20%;
 	border-radius: 50%;
+	margin-left: 4%;
 }
 
 .contacts {
@@ -191,7 +223,8 @@ h1 {
 
 .contacts p {
 	color: #faf8e0;
-	font-size: 120%;
+	word-wrap: break-word;
+	font-size: 19px;
 	padding: 3.5% 0% 0% 17%;
 }
 
@@ -200,7 +233,7 @@ h1 {
 	text-transform: uppercase;
 	color: #faf8e0;
 	font-family: 'market_decoregular';
-	font-size: 35px;
+	font-size: 40px;
 }
 
 .professional-skills h2:after {
@@ -210,7 +243,7 @@ h1 {
 	content: " ";
 	text-shadow: none;
 	background-color: #faf8e0;
-	width: 73.8%;
+	width: 62.2%;
 }
 
 .professional-skills h5, .personal-skills h5 {
@@ -233,7 +266,7 @@ h1 {
 
 .professional-skills li>span, .personal-skills li>span {
 	color: #faf8e0;
-	font-size: 1.3vw;
+	font-size: 16px;
 }
 
 .indikator-zagryzki {
@@ -251,16 +284,6 @@ h1 {
 
 
 
-
-
-
-
-
-
-/*.skills {
-	border: 1px solid black;
-}
-*/
 
 
 
