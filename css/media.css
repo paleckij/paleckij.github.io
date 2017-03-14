@@ -80,7 +80,7 @@
 	}
 }
 
-@media (orientation: landscape) {
+@media (max-width: 760px) and (orientation: landscape) {
 	h1 {
 		font-size: 86px;
 	}
