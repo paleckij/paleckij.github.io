@@ -4,6 +4,8 @@
 	}
 
 	h1 {
+		-webkit-font-size: 50px;
+		-moz-font-size: 50px;
 		font-size: 100px;
 		margin-right: 8px;
 	}
