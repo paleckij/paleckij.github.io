@@ -80,3 +80,17 @@
 	}
 }
 
+@media (orientation: landscape) {
+	h1 {
+		font-size: 86px;
+	}
+
+	.header p {
+    	font-size: 22px;
+    }
+
+    .contacts p {
+ 	    font-size: 16px;
+	}
+}
+
