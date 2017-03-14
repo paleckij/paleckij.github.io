@@ -62,7 +62,11 @@
 	}
 
 	.indikator-zagryzki {
-        height: 12px;
+        	height: 12px;
+	}
+	
+	.contacts img {
+		display: none;
 	}
 
 	.contacts p {
