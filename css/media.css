@@ -64,6 +64,11 @@
 	.indikator-zagryzki {
         	height: 12px;
 	}
+
+	.contacts-title {
+		margin-top: 8% 0% 7% 0%;
+		font-size: 19px;	
+	}
 	
 	.contacts img {
 		display: none;

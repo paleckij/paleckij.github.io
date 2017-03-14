@@ -228,12 +228,16 @@ h1 {
 	padding: 3.5% 0% 0% 17%;
 }
 
-.professional-skills h2, .contacts-title h2 {
-	margin-top: 3%;
+.professional-skills h2, .contacts-title {
+	margin: 3% 0% 5% 0%;
 	text-transform: uppercase;
 	color: #faf8e0;
 	font-family: 'market_decoregular';
 	font-size: 40px;
+}
+
+.contacts-title {
+	font-size: 35px;
 }
 
 .professional-skills h2:after {
