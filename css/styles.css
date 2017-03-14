@@ -228,7 +228,7 @@ h1 {
 	padding: 3.5% 0% 0% 17%;
 }
 
-.professional-skills h2 {
+.professional-skills h2, .contacts-title h2 {
 	margin-top: 3%;
 	text-transform: uppercase;
 	color: #faf8e0;
