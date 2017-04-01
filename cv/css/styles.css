@@ -1,0 +1,293 @@
+@import "reset.css";
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'cheap_pineregular';
+    src: url('../fonts/cheap_pine_regular-webfont.woff2') format('woff2'),
+         url('../fonts/cheap_pine_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'market_decoregular';
+    src: url('../fonts/market_deco-webfont.woff2') format('woff2'),
+         url('../fonts/market_deco-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exolight';
+    src: url('../fonts/exo-light-webfont.woff2') format('woff2'),
+         url('../fonts/exo-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exoblack';
+    src: url('../fonts/exo-black-webfont.woff2') format('woff2'),
+         url('../fonts/exo-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearfix:after {
+	content:""; 
+ 	display: block;
+	clear: both;
+}
+
+body {
+	/*z-index: 100 !important; */
+	font-family: 'exolight';
+	/*background: url(../img/background.jpg) repeat-y;
+	background-size: 100%;	*/
+	/*position: relative;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#faf8e0+58,434244+58 */
+background: rgb(250,248,224); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(250,248,224,1) 58%, rgba(67,66,68,1) 58%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(250,248,224,1) 58%,rgba(67,66,68,1) 58%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(250,248,224,1) 58%,rgba(67,66,68,1) 58%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf8e0', endColorstr='#434244',GradientType=1 ); /* IE6-9 */
+
+}
+
+/*body:after {
+	background: #434244;
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	content: "";
+	display: block;	
+}*/
+
+.wrapper {
+	/*border: 2px solid red;*/
+	width: 80%;
+	margin: 0 auto;
+}	
+
+.header {
+	background: #7a7978;
+	text-align: right;
+	padding: 2% 0;
+	border-bottom: 12px solid #362632;
+}
+
+h1 {
+	font-family: 'cheap_pineregular';
+	font-size: 120px;
+	color: #faf8e0;
+	padding-top: 5%;
+}
+
+.header p {
+	font-family: 'market_decoregular';
+	font-size: 30px;
+	letter-spacing: 4px;
+	color: #faf8e0;
+}
+
+.main {
+	/*border: 2px solid green;*/
+	display: table;
+	table-layout:fixed;
+	width: 100%;
+    box-sizing: border-box;
+}
+
+.left {
+	display: table-cell;
+	vertical-align: top;
+	width: 65.5%;
+	padding: 3% 5% 3% 4%;
+	background: #faf8e0;
+}
+
+.right {
+	display: table-cell;
+	padding: 1.9% 1.5%;
+	vertical-align: top;
+	width: 34.6%;
+	background: rgb(67,66,68);
+}
+
+.hello	{
+	padding-bottom: 2%;
+	border-bottom: 2px solid #7a7978;
+}
+
+.hello h3 {
+	margin-bottom: 3%;
+	font-family: 'market_decoregular';
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #7a7978;
+}
+
+.hello p {
+	font-size: 17px;
+	line-height: 22px;
+	color: #383836;
+}
+
+.education {
+	/*border: 1px solid black;*/
+	margin-top: 4%;
+	padding-bottom: 2%;
+	border-bottom: 2px solid #7a7978;
+}
+
+.education:last-child {
+	border-bottom: none;	
+}
+
+.education img {
+	/*border: 1px solid black;*/
+	display: block;
+	float: left;
+	width: 43px;
+}
+
+.education h3 {
+	/*border: 1px solid black;*/
+	margin-left: 10%;
+    padding-top: 0.4%;
+	font-family: 'market_decoregular';
+	font-size: 35px;
+	letter-spacing: 0.0625em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #7a7978;
+}
+
+.university {
+	margin-top: 2.5%;
+}
+
+.university span {
+	/*border: 1px solid black;*/
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 22px;
+	color: #383836;
+}
+
+.university span:first-child {
+	font-family: 'exoblack';
+}
+
+.university p {
+	/*border: 1px solid black;*/
+	margin-top: 2%;
+	line-height: 22px;
+}
+
+.foto {
+	display: block;
+	float: left;
+	width: 20%;
+	border-radius: 50%;
+	margin-left: 4%;
+}
+
+.contacts {
+	padding: 4% 0% 4% 4%;
+	background-color: #515051;
+}
+
+.contacts li {
+	margin-bottom: 5%;
+}
+
+.contacts li:last-child {
+	margin-bottom: 0%;
+}
+
+.contacts img {
+	display: inline-block;
+	float: left;
+	width: 13.2%;
+}
+
+.contacts p {
+	color: #faf8e0;
+	word-wrap: break-word;
+	font-size: 19px;
+	padding: 3.5% 0% 0% 17%;
+}
+
+.professional-skills h2, .contacts-title {
+	margin: 3% 0% 5% 0%;
+	text-transform: uppercase;
+	color: #faf8e0;
+	font-family: 'market_decoregular';
+	font-size: 40px;
+}
+
+.contacts-title {
+	font-size: 35px;
+}
+
+.professional-skills h2:after {
+	display: inline-block;
+	margin: 0 0 10px 10px;
+	height: 2px;
+	content: " ";
+	text-shadow: none;
+	background-color: #faf8e0;
+	width: 62.2%;
+}
+
+.professional-skills h5, .personal-skills h5 {
+	margin-top: 2%;
+	text-transform: uppercase;
+	color: #faf8e0;
+	font-family: 'market_decoregular';
+	font-size: 19px;
+}
+
+.professional-skills ul, .personal-skills ul {
+	margin: 2.5% 0;
+	padding-bottom: 1.3%;
+	letter-spacing: 0.75px;
+}
+
+.professional-skills li, .personal-skills li {
+	margin-bottom: 2.5%;
+}
+
+.professional-skills li>span, .personal-skills li>span {
+	color: #faf8e0;
+	font-size: 16px;
+}
+
+.indikator-zagryzki {
+	margin-top: 1.5%; 
+	height: 20px;  /* Висота індикатора - ТРЕБА БУДЕ ЗАДАТИ У ВІДСОТКАХ!!! */
+	background: #959797; /*Колір для фона індикатора завантаження*/
+}
+
+.polosa-zagruzki {
+	display: block;
+	width: 85%; /*Розмір полоси завантаження*/
+	height: 100%;
+	background-color: rgb(250,248,224);
+}
+
+
+
+
+
+
